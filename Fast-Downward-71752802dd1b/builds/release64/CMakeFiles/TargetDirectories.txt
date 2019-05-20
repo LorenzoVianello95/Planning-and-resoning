@@ -1,0 +1,6 @@
+/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release64/CMakeFiles/edit_cache.dir
+/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release64/CMakeFiles/translate.dir
+/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release64/CMakeFiles/rebuild_cache.dir
+/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release64/search/CMakeFiles/edit_cache.dir
+/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release64/search/CMakeFiles/downward.dir
+/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release64/search/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,222 @@
+The system is: Linux - 4.15.0-34-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: ;-m32
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: ;-m32
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a194b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a194b.dir/build.make CMakeFiles/cmTC_a194b.dir/build
+make[1]: Entering directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a194b.dir/testCCompiler.c.o
+/usr/bin/gcc    -m32    -o CMakeFiles/cmTC_a194b.dir/testCCompiler.c.o   -c "/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_a194b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a194b.dir/link.txt --verbose=1
+/usr/bin/gcc   -m32     CMakeFiles/cmTC_a194b.dir/testCCompiler.c.o  -o cmTC_a194b -rdynamic 
+make[1]: Leaving directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c049b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c049b.dir/build.make CMakeFiles/cmTC_c049b.dir/build
+make[1]: Entering directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -m32    -o CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c049b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c049b.dir/link.txt --verbose=1
+/usr/bin/gcc   -m32    -v CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o  -o cmTC_c049b -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/32/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/:/lib/i386-linux-gnu/:/lib/../lib32/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib32/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/i386-linux-gnu/:/lib/:/usr/lib/i386-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'cmTC_c049b' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwYrPPx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_c049b /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5/32 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32 -L/lib/i386-linux-gnu -L/lib/../lib32 -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib32 -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -L/lib/i386-linux-gnu -L/usr/lib/i386-linux-gnu CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+make[1]: Leaving directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c049b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c049b.dir/build.make CMakeFiles/cmTC_c049b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -m32    -o CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c049b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c049b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc   -m32    -v CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o  -o cmTC_c049b -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/32/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/:/lib/i386-linux-gnu/:/lib/../lib32/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib32/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/i386-linux-gnu/:/lib/:/usr/lib/i386-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'cmTC_c049b' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwYrPPx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_c049b /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5/32 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32 -L/lib/i386-linux-gnu -L/lib/../lib32 -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib32 -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -L/lib/i386-linux-gnu -L/usr/lib/i386-linux-gnu CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwYrPPx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c049b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/32] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/32]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib32] ==> dir [/lib/../lib32]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib32] ==> dir [/usr/lib/../lib32]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [CMakeFiles/cmTC_c049b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/32] ==> [/usr/lib/gcc/x86_64-linux-gnu/5/32]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32] ==> [/usr/lib32]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib32] ==> [/lib32]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib32] ==> [/usr/lib32]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5/32;/usr/lib/i386-linux-gnu;/usr/lib32;/lib/i386-linux-gnu;/lib32;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad50f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad50f.dir/build.make CMakeFiles/cmTC_ad50f.dir/build
+make[1]: Entering directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad50f.dir/feature_tests.c.o
+/usr/bin/gcc    -m32    -std=c11 -o CMakeFiles/cmTC_ad50f.dir/feature_tests.c.o   -c "/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_ad50f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad50f.dir/link.txt --verbose=1
+/usr/bin/gcc   -m32     CMakeFiles/cmTC_ad50f.dir/feature_tests.c.o  -o cmTC_ad50f -rdynamic 
+make[1]: Leaving directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_011df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_011df.dir/build.make CMakeFiles/cmTC_011df.dir/build
+make[1]: Entering directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_011df.dir/feature_tests.c.o
+/usr/bin/gcc    -m32    -std=c99 -o CMakeFiles/cmTC_011df.dir/feature_tests.c.o   -c "/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_011df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_011df.dir/link.txt --verbose=1
+/usr/bin/gcc   -m32     CMakeFiles/cmTC_011df.dir/feature_tests.c.o  -o cmTC_011df -rdynamic 
+make[1]: Leaving directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_457f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_457f9.dir/build.make CMakeFiles/cmTC_457f9.dir/build
+make[1]: Entering directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_457f9.dir/feature_tests.c.o
+/usr/bin/gcc    -m32    -std=c90 -o CMakeFiles/cmTC_457f9.dir/feature_tests.c.o   -c "/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_457f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_457f9.dir/link.txt --verbose=1
+/usr/bin/gcc   -m32     CMakeFiles/cmTC_457f9.dir/feature_tests.c.o  -o cmTC_457f9 -rdynamic 
+make[1]: Leaving directory '/home/lollo/Desktop/planning and reasoning/Fast-Downward-71752802dd1b/builds/release32/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
